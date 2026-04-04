@@ -1,8 +1,11 @@
 # Frogger-Remake
-A remake of the popular arcade classic frogger in python with pygame<br>    
+A remake of the popular arcade classic frogger in python with pygame.<br>    
 I got bored and decided to make this and test my skills.  
 Ignore the code quality. It's not the best but I just wanted to  
-see how much I could do in a few days.
+see how much I could do in a few days.<br>
+
+I love making arcade games because they can be coded in a few days and you learn a lot from them.<br>
+Feel free to study the code and make your own arcade games!
 
 <h1>Controls</h1>
 
