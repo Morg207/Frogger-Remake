@@ -5,7 +5,9 @@ Ignore the code quality. It's not the best but I just wanted to
 see how much I could do in a few days.<br>
 
 I love making arcade games because they can be coded in a few days and you learn a lot from them.<br>
-Feel free to study the code and make your own arcade games!
+Feel free to study the code and make your own arcade games!<br>
+
+I'm using a free asset pack for the sounds and graphics made by Kyle Fuji.
 
 <h1>Controls</h1>
 
