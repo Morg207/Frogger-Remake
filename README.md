@@ -15,5 +15,14 @@ Use the WASD keys to control the frog.
 
 <img width="945" height="1079" alt="Frogger Screenshot" src="https://github.com/user-attachments/assets/3cd25496-cf78-427b-b88a-023aaccc9736" />
 
+## 🚀 Getting Started
 
+### ✅ Requirements
+
+Make sure you have Python 3 and pygame installed.
+
+Install dependencies:
+
+```bash
+pip install pygame
 
