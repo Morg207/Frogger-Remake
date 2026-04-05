@@ -41,9 +41,13 @@ def find_tile_world(tilemap, x, y):
     row = (y + 16) // tile_height
     col = (x + 16) // tile_width
     if col > num_blocks_x - 1:
-        col = num_blocks_x - 1
-    if row > num_blocks_y - 1:
+        col = num_blocks_x - 1 #Don't really need all these checks but I added them anyway.
+    if row > num_blocks_y - 1: #Don't need them all because I check bounds elsewhere.
         row = num_blocks_y - 1
+    if col < 0:
+        col = 0
+    if row < 0:
+        row = 0
     tile = tilemap[row][col]
     return tile
 
