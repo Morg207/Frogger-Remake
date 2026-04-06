@@ -41,10 +41,10 @@ def find_tile_world(tilemap, x, y):
     row = (y + 16) // tile_height
     col = (x + 16) // tile_width
     if col > num_blocks_x - 1:
-        col = num_blocks_x - 1 #Really don't need all these checks but added them anyway.
-    if row > num_blocks_y - 1: #I check screen bounds elsewhere a lot of the time.
+        col = num_blocks_x - 1
+    if row > num_blocks_y - 1:
         row = num_blocks_y - 1
-    if col < 0:
+    if col < 0: 
         col = 0
     if row < 0:
         row = 0
@@ -181,7 +181,7 @@ class Timer:
     def reset(self):
         self.bar_width = 100
         self.start_time = time.time()
-        self.time_remaining = 60
+        self.time_remaining = 30
         self.fill_percentage = 1
         self.fill_rect = pygame.Rect(34,44, self.bar_width,self.bar_height)
 
