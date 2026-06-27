@@ -9,6 +9,8 @@ Feel free to study the code and make your own arcade games!<br>
 
 I'm using a free asset pack for the sounds and graphics made by Kyle Fuji.
 
+Code is licensed under GPL 3.0, art assets, sounds, and fonts are subject to their original restrictive license (No resell/redistribution).
+
 <h1>Controls</h1>
 
 Use the WASD keys to control the frog.
