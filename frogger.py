@@ -845,7 +845,7 @@ class Game:
         self.game_timer = Timer(self.frog)
         self.frog.game_timer = self.game_timer
         self.lives_colour = pygame.Color(230,230,230)
-
+  
     @staticmethod
     def play_background_music():
         pygame.mixer.music.load("Audio/A_soundtrack.wav")
@@ -862,22 +862,22 @@ class Game:
         tiles = []
         row = 0
         column = 0
-        for c in self.tile_string:
-            if c.isdigit():
-                c = int(c)
-                if c == 0:
+        for char in self.tile_string:
+            if char.isdigit():
+                char = int(char)
+                if char == 0:
                    tiles.append(Tile(TileID.BLACK, column * tile_width, row * tile_height, Tile.black_tile))
-                if c == 1:
+                if char == 1:
                     tiles.append(Tile(TileID.FLOWER1, column*tile_width, row* tile_height, Tile.flower_ground2))
-                if c == 2:
+                if char == 2:
                     tiles.append(Tile(TileID.FLOWER2, column * tile_width, row * tile_height, Tile.flower_ground1))
-                if c == 3:
+                if char == 3:
                     tiles.append(Tile(TileID.BLUE, column * tile_width, row * tile_height, Tile.blue_tile))
-                if c == 4:
+                if char == 4:
                     tiles.append(Tile(TileID.LEFT_END, column * tile_width, row * tile_height, Tile.blue_tile))
-                if c == 5:
+                if char == 5:
                     tiles.append(Tile(TileID.MIDDLE_END, column * tile_width, row * tile_height, Tile.blue_tile))
-                if c == 6:
+                if char == 6:
                     tiles.append(Tile(TileID.RIGHT_END, column * tile_width, row * tile_height, Tile.blue_tile))
                 column+=1
                 if column > 13:
